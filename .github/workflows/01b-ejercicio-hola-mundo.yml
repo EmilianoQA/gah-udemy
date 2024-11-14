@@ -2,10 +2,11 @@
 name: 01b-ejercicio-hola-mundo
 on:
   workflow_dispatch:
+  push:
 jobs:
   hola-mundo:
     runs-on: ubuntu-latest
     steps:
     # Runs a single command using the runners shell
-    - name: Hola mundo
+    - name: Hola Emiliano
       run: echo "Hola Emiliano!"
