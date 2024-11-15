@@ -3,9 +3,9 @@ on:
   push:
     paths-ignore:
         '*.md'
-  issue:
+  issues:
     types:
-        - opend
+     - opened
 jobs:
   hola-mundo:
     runs-on: ubuntu-latest
