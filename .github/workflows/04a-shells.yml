@@ -1,0 +1,20 @@
+name: 04a - Distintas shells
+on:
+    push:  # Corregido "puhs"
+        branches: ["main"]
+    workflow_dispatch:
+
+jobs:
+    build:
+        runs-on: ubuntu-latest
+        steps:
+            - name: Bash
+              shell: bash
+              run: echo $0
+
+            - name: sh
+              shell: sh
+              run: echo $0
+
+            - name: Por defecto
+              run: echo $0
