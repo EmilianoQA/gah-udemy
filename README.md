@@ -1,2 +1,2 @@
 # gah-udemy
-repositorio para ejercicios de github actions
+repositorio para ejercicios de github actions.

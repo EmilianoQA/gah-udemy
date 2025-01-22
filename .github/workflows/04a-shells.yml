@@ -1,6 +1,6 @@
 name: 04a - Distintas shells
 on:
-    push:  # Corregido "puhs"
+    push:
         branches: ["main"]
     workflow_dispatch:
 
